@@ -1,0 +1,277 @@
+
+    
+
+
+
+body {
+    width: 1000px;
+}
+
+.search {
+    width: 320px;
+    height: 90px;
+    left: 50px;
+    top: 30px;
+    display: block;      
+}
+small {
+    height: 24px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #8C8C8C;
+}
+input.search {
+ height: 30px;
+    width: 210px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    margin-top: 20px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+font-family: TT Norms;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+margin-right: 10px;
+
+}
+.ins {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.button {
+height: 40px;
+width: 90px;
+border-radius: 3px;
+background: #353535;
+margin-top: 16px;
+color: white;
+}
+.model {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    width: 320px;
+    left: 50px;
+    top: 140px;
+    border-radius: 0px;
+font-family: TT Norms;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+img.logo {
+    height: 40px;
+    width: 60px;
+}
+.exp {
+    height: 229px;
+width: 221px;
+left: 50px;
+top: 250px;
+border-radius: 0px;
+margin-top: 30px;
+
+}
+select {
+border-radius: 0px;
+width: 208px;
+height: 30px;
+left: 12px;
+margin-left: 25px;
+
+
+font-family: TT Norms;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #353535;
+}
+.radio {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: TT Norms;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.16px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #353535;
+}
+label {
+    margin-top: 11px;
+}
+.generate {
+margin-top: 50px;
+height: 40px;
+width: 180px;
+left: 0px;
+border-radius: 3px;
+background: #4990E2;
+border-radius: 3px;
+color: white;
+font-family: TT Norms;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.1599999964237213px;
+text-align: center;
+
+}
+.info {
+height: auto;
+width: 550px;
+left: 400px;
+top: 140px;
+border-radius: 5px;
+background: #F7F7F7;
+position: absolute;
+margin-left: 15px;
+
+}
+.infotext {
+height: auto;
+width: 513.3331909179688px;
+left: 418.33434104919434px;
+top: 160px;
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+font-family: TT Norms;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #8C8C8C;
+
+}
+.report {
+height: auto;
+width: 900px;
+left: 50px;
+top: 516px;
+border-radius: 0px;
+background: #FFFFFF;
+border: 1px solid #939DA6;
+box-shadow: 0 0 40px 2px gray;
+margin-top: 46px;
+margin-left: 50px;
+margin-right: 50px;
+
+}
+table { 
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    font-family: TT Norms;
+    font-size: 13px;
+    border-spacing: 0px 0px;
+   
+    
+   
+}
+caption {
+ margin-top: 30px;   
+width: 130px;
+height: 19px;
+
+
+font-family: TT Norms;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+
+}
+td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+
+}
+table thead tr {
+height: 40px;
+font-family: TT Norms;
+font-size: 13px;
+line-height: 15px;
+color: #939DA6;
+
+}
+.nnn {border-bottom:1px solid rgb(163, 161, 161);
+
+}
+img {
+    height: 16px;
+    width: 16px;
+    left: 500px;
+    top: 656px;
+    border-radius: 0px;
+    
+}
+
+.form_radio {
+	margin-bottom: 10px;
+}
+.form_radio input[type=radio] {
+	display: none;
+}
+.form_radio label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+.form_radio label:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background: url(VectorBack.svg) 0 0 no-repeat;
+}
+
+/* Checked */
+.form_radio input[type=radio]:checked + label:before {
+	background: url(VectorBack.png) 0 0 no-repeat;
+}
+
+/* Hover */
+.form_radio label:hover:before {
+	filter: brightness(120%);
+}
+
+/* Disabled */
+.form_radio input[type=radio]:disabled + label:before {
+	filter: grayscale(100%);
+}
+
+.form {
+	width: 150px;
+	margin: 0 auto;
+}

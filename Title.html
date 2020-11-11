@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href = "TTNorms/stylesheet.css" rel = "stylesheet" type = "text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание BIOCAD</title>
+</head>
+<body>
+    <div class="search">
+        <small>Enter inventory number, guid or bims id</small>
+        <div class="ins">
+        <input class="search" type="text">
+        <button class="button">Search</button>
+    </div>
+    </div>
+    <div class="model">
+        <img class="logo" src="logo.png" alt="sss">
+        <h3>Аналитические весы OHAUS Adventurer АХ324
+            (B715976163)</h3>
+    </div>
+    <div class="exp">
+        <select >
+            <option>1 mounth</option>
+            <option>1 year</option>
+        </select>
+        <div class="form">
+            <div class="form_radio">
+                <input id="radio-1" type="radio" name="radio" value="1" checked>
+                <label for="radio-1">Calibration</label>
+            </div>
+        
+            <div class="form_radio">
+                <input id="radio-2" type="radio" name="radio" value="2">
+                <label for="radio-2">Measuring</label>
+            </div>
+        
+            <div class="form_radio">
+                <input id="radio-3" type="radio" name="radio" value="3">
+                <label for="radio-3">Using </label>
+            </div>
+        </div>
+       <!----- <div class="radio">
+        <label><input type="radio" name="radio" value="Calibration"> Calibration </label>
+        <label><input type="radio" name="radio" value="Measuring"> Measuring </label>
+        <label><input type="radio" name="radio" value="Using"> Using </label>
+
+    </div>
+    ---->
+    <button class="generate">Generate report</button>
+    </div>
+    <div class="info"><p class="infotext" align=justify>Тип оборудования: <b>Весы</b><br> 
+        Статус: <b>Готов к работе</b><br>
+        Изготовитель: <b>Ohaus</b><br>
+        Модель: <b>AX-123</b><br>
+        Ответственное подразделение (ремонт): <b>Группа обслуживания лабораторного оборудования</b><br>
+        Эксплуатирующее подразделение: <b>Химико-аналитическая лаборатория 2.0</b><br>
+        МОЛ: <b>Иванов Иван Иванович</b><br>
+        Территория: <b>г. Санкт-Петербург (Нойдорф)</b><br>
+        Серийный номер:<b> B715976163</b><br>
+        GUID: <a href="URL">508b2a71-662e-4983-ae0c-3cb0c1cd21c5</a><br>
+        Bims ID: <a href="URL">49db8db1-585f-4b9e-bbf0-8a59698edc8b</a><br>
+        Tam:  <a href="URL">А-001234</a><br></p>
+        
+    </div>
+<div class="report">
+    
+    <table >
+        <caption><b>Calibration report</b></caption>
+        <thead>
+        <tr>
+            <td>Data</td>
+            <td>Used buffer solutions</td>
+            <td>Slope, % Norm
+                95-105</td>
+                <td>Offset, mV Norm
+                    ±(0-20)</td>
+                    <td>User</td>
+        </tr>
+    </thead>
+        <tr >
+            <td class="nnn" align="left" valign="top" width=10%>04.10.19 <br>10:23</td>
+            <td class="nnn" align="left" valign="top" width=30%>В1: № 2000460789536: pH 1.09 <br>В2: № 2000460789536: pH 2.00 <br>В3: № 2000460789536: pH 4.01 <br>В4: № 2000460789536: pH 7.00 <br>В5: № 2000460789536: pH 9.21</td>
+            <td class="nnn" align="left" valign="top" width=15%>98.7 <img src="green.png" alt="null"></td>
+            <td class="nnn" align="left" valign="top" width=15%>-0.3 <img src="green.png" alt=""></td>
+            <td class="nnn" align="left" valign="top" width=30%>Иванов Генадий Петрович</td>
+        </tr>
+        <tr >
+            <td td class="nnn" align="left" valign="top" >04.10.19 <br>10:23</td>
+            <td td class="nnn" align="left" valign="top">В1: № 2000460789536: pH 1.09 <br>В2: № 2000460789536: pH 2.00 <br>В3: № 2000460789536: pH 4.01 <br>В4: № 2000460789536: pH 7.00 <br>В5: № 2000460789536: pH 9.21</td>
+            <td td class="nnn" align="left" valign="top">98.7 <img src="green.png" alt="null"></td>
+            <td td class="nnn" align="left" valign="top">-0.3 <img src="green.png" alt=""></td>
+            <td td class="nnn" align="left" valign="top">Петров Иван Генадьевич</td>
+        </tr>
+        <tr>
+            <td td class="nnn" align="left" valign="top">04.10.19 <br>10:23</td>
+            <td td class="nnn" align="left" valign="top">В1: № 2000460789536: pH 1.09 <br>В2: № 2000460789536: pH 2.00 <br>В3: № 2000460789536: pH 4.01 <br>В4: № 2000460789536: pH 7.00 <br>В5: № 2000460789536: pH 9.21</td>
+            <td td class="nnn" align="left" valign="top">98.7 <img src="green.png" alt="null"></td>
+            <td td class="nnn" align="left" valign="top">-0.3 <img src="green.png" alt=""></td>
+            <td td class="nnn" align="left" valign="top" >Петров Генадий Иванович</td>
+        </tr>
+        <tr><td align="left" valign="top">04.10.19 <br>10:23</td>
+            <td align="left" valign="top">В1: № 2000460789536: pH 1.09 <br>В2: № 2000460789536: pH 2.00 <br>В3: № 2000460789536: pH 4.01 <br>В4: № 2000460789536: pH 7.00 <br>В5: № 2000460789536: pH 9.21</td>
+            <td align="left" valign="top">90.1 <img src="red.png" alt="null"></td>
+            <td align="left" valign="top">-0.5 <img src="green.png" alt=""></td>
+            <td align="left" valign="top">Генадьев Иван Петрович</td></tr>
+
+    </table>
+
+</div>
+
+
+
+        
+
+</body>
+</html>
