@@ -76,6 +76,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.5px;
 text-align: left;
+
 }
 img.logo {
     height: 40px;
@@ -147,12 +148,12 @@ text-align: center;
 height: auto;
 width: 550px;
 left: 400px;
-top: 140px;
+top: 185px;
 border-radius: 5px;
 background: #F7F7F7;
 position: absolute;
 margin-left: 15px;
-
+    
 }
 .infotext {
 height: auto;
